@@ -54,7 +54,7 @@
 //   console.log(result);
 // }
 // asrniTopish(2052);
-Math.acosh
+// Math.acosh
 // let x='mart'
 // switch (x) {
 //     case 'dekabr':console.log('qishning birincchi oyi'); break
@@ -212,10 +212,10 @@ Math.acosh
 // 2-masala
 
 /////////////////////////////////
-//   let x =30;
-// if( x % 3 ==0){
-//     console.log("Bu son 3ga bolinadi");
-// }
+  let x =30;
+if( x % 3 ==0){
+    console.log("Bu son 3ga bolinadi");
+}
 /////////////////////////////////////////////
 //   let x =30;
 // if( x % 5 ==0){
@@ -419,22 +419,22 @@ Math.acosh
 
 //////////////////////////////// Math.floor ////////////////////////////////
 
-function floor(x) {
-  let number = x.toString().split(".")[0];
-  let minus = x.toString().split("-");
-  let residual = x.toString().split(".")[1];
-  let result;
-  if ((minus[0] === "" && residual == 0) || residual == undefined) {
-    result = number;
-  } else if ((minus[0] == "" && residual > 0) || residual == undefined) {
-    result = number - 1;
-  } else if (residual >= 0 || residual == undefined) {
-    result = number;
-  }
-  console.log(Number(result));
-  return Number(result);
-}
-floor(-347);
+// function floor(x) {
+//   let number = x.toString().split(".")[0];
+//   let minus = x.toString().split("-");
+//   let residual = x.toString().split(".")[1];
+//   let result;
+//   if ((minus[0] === "" && residual == 0) || residual == undefined) {
+//     result = number;
+//   } else if ((minus[0] == "" && residual > 0) || residual == undefined) {
+//     result = number - 1;
+//   } else if (residual >= 0 || residual == undefined) {
+//     result = number;
+//   }
+//   console.log(Number(result));
+//   return Number(result);
+// }
+// floor(-347);
 
 //////////////////////////////// Math.ceil ////////////////////////////////
 
