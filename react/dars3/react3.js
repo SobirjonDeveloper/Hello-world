@@ -9,7 +9,7 @@ class Parent extends Component {
         return(
             <Parents>
                 <div>parent</div>
-                <Home student="Sobirjonn">Student</Home>
+                <Home student="Sobirjon">Student</Home>
             </Parents>
         );
     }
