@@ -4,7 +4,7 @@ import React, { Component} from "./react"
    render(){
     
        return(
-         <div>{this.props.student}</div>
+         <div>{this.props.studentt}</div>
            )
         }
 }
@@ -12,7 +12,7 @@ class Student extends Component {
   render(){
    
       return(
-        <div>{this.props.student}</div>
+        <div>{this.props.studentt}</div>
           )
        }
 }
@@ -22,7 +22,7 @@ class About extends Component {
   render(){
     
     return(
-      <div>{this.props.student}</div>
+      <div>{this.props.studentt}</div>
           )
        }
       }
